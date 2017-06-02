@@ -27,7 +27,7 @@ class PCA
 		factor_array = []
 		sum_eigenvalue = 0.0
 		reducing_dimension.times.each do |i|
-			factor_array << @eigen[i][:vector].map{|v| v * @eigen[i][:value] }
+			factor_array << @eigen[i][:vector]#.map{|v| v * @eigen[i][:value] }
 			sum_eigenvalue += @eigen[i][:value]
 		end
 		factor = Matrix[ *factor_array ]
