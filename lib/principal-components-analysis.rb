@@ -1,6 +1,6 @@
 require 'matrix'
-require './matrix_extension'
-require './enumerable_extension'
+require 'matrix_extension'
+require 'enumerable_extension'
 
 class PCA
 	def initialize(entries)

@@ -1,4 +1,4 @@
-require './principal-components-analysis'
+require 'principal-components-analysis'
 
 data = [[2,   0,   -1.4],
         [2.2, 0.2, -1.5],
