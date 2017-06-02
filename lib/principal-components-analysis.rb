@@ -7,7 +7,6 @@ class PCA
 		@dimension = entries[0].size
 		@entries = Matrix[*entries]
 		conv_m = @entries.covariance_matrix
-		# p conv_m
 		eigen_vectors, eigen_values, v_inv = conv_m.eigensystem
 
 		@eigen = []
